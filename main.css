@@ -416,10 +416,13 @@ hr {
     top: 0;
     left: 0;
     width: 100%;
+    align-items: center;
 	color: #415d3d;
     background-color: #f9f7ee;
     border: 1px solid #ddd;
     padding: 15px;
+    font-size: 3.2em;
+    padding-left: 10em;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
     z-index: 9999;
     display: none;
@@ -427,7 +430,7 @@ hr {
 .close-btn {
     float: right;
     cursor: pointer;
-    font-size: 30px;
+    font-size: 2.2em;
     font-weight: bold;
 	color: #000;
 }
@@ -437,7 +440,7 @@ hr {
 }
 @media only screen and (max-width: 600px) {
     .custom-alert {
-        font-size: 34px;
+        font-size: 2.2em;
         padding: 10px;
     }
 }
