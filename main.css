@@ -51,7 +51,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     margin: 0;
-    min-height: 560em;
+    min-height: 540em;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -77,14 +77,14 @@ hr {
 }
 
 .container-one .main-title {
-    margin-top: 110%;
+    margin-top: 118%;
     width: 100%;
 }
 
 .container-one .second-title {
     width: 100%;
     height: auto;
-    margin-bottom: 4em;
+    margin-bottom: 10em;
 }
 .container-one .main-title h1 {
     font-family: 'KZGoodVibes', Arial, sans-serif;
@@ -117,7 +117,7 @@ hr {
     object-fit: cover;
     z-index: -1;
     margin: 0 auto;
-    margin-top: 1%;
+    margin-top: 5%;
     margin-bottom: 0%;
 }
 
@@ -126,7 +126,7 @@ hr {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 52em;
+    margin-top: 38em;
     height: 85em;
     width: 100%;
 }
