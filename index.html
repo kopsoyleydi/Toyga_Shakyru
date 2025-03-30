@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=1280" />
+  <title>Тоты ұзату</title>
+  <meta property="og:title" content="Ақтоты ұзату" />
+  <meta property="og:description" content="" />
+  <meta property="og:type" content="website" />
+  <link rel="canonical" href="aktotyuzatu">
+  <meta name="format-detection" content="telephone=no" />
+  <meta http-equiv="x-dns-prefetch-control" content="on">
+  <link rel="shortcut icon" href="jake.png" type="image" />
+  <link rel="stylesheet" href="main.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&subset=latin,cyrillic"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700"
+    type="text/css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Lobster&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container-one">
+    <div class="main-title">
+      <h1>Тойға шақыру</h1>
+      <div class="line_photo">
+        <img src="flower_two.png" class="image-flower" width="100%">
+      </div>
+    </div>
+    <div class="second-title">
+      <h2>Құрметті қонақтар, сіздерді <br>Диас & Тоты <br> үйлену тойына арналған <br> салтанатты ақ дастарханымыздың
+        <br>қадірлі қонағы болуға <br> шақырамыз!
+      </h2>
+    </div>
+  </div>
+  <div class="med-img">
+    <img src="wedding.jpeg" class="bg-image">
+  </div>
+  <div class="container-two">
+    <div class="main-title">
+      <h2> <span> Той салтанаты:</span> <br> 12 шілде 2025 ж. <br> 17:00-де басталады
+      </h2>
+    </div>
+    <div class="calendar">
+      <img src="calendar_wedding.png" class="calendar-image">
+    </div>
+    <div class="third-title">
+      <h2> <span> Той йелері: </span> <br>Сабыр-Айтолқын
+      </h2>
+    </div>
+    <div class="second-title">
+      <h2> <span> Мекен-жайы:</span> <br> «Bella Grand» (кіші зал), <br> Улица Бухтарминская, 124, Талгар
+      </h2>
+    </div>
+    <div class='t396__elem tn-elem tn-elem__5766829701681118515877 t-animate' data-elem-id='1681118515877'
+      data-elem-type='image' data-field-top-value="3489" data-field-left-value="465" data-field-width-value="324"
+      data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid"
+      data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value=""
+      data-field-widthunits-value="px" data-animate-style="fadeinright" data-animate-duration="1"
+      data-animate-distance="100" data-field-filewidth-value="424" data-field-fileheight-value="126">
+      <a class='tn-atom' href="https://2gis.kz/almaty/geo/70000001062783287">
+        <img class="tn-atom__img t-img loaded"
+          data-original="https://static.tildacdn.pro/tild3861-3263-4235-a632-653966323463/2.png" alt=""
+          imgfield="tn_img_1688424391164"
+          src="https://optim.tildacdn.pro/tild3861-3263-4235-a632-653966323463/-/resize/262x/-/format/webp/2.png"
+          style="width: 30em;">
+      </a>
+    </div>
+    <div class="four-title">
+      <h2> Қуанышымыздың <br> қадірлі куәгері болыңыздар!
+        <br>
+        <div class="line_photo">
+          <img src="flower_two.png" class="image-flower" width="100%" style="margin-top: 5%; margin-bottom: 10%; transform: rotate(180deg)">
+        </div>
+      </h2>
+    </div>
+  </div>
+  <div class="container-three">
+    <div class="title">
+      <h2> Тойға қатысуды <br> растауыңызды сұраймыз!
+      </h2>
+    </div>
+    <form class="form-container" id="contact-form">
+      <div class="custom-label">
+        <h1 class="form-label">Аты-жөніңіз: </h1>
+        <input type="text" id="name" class="form-input" required>
+      </div>
+      <p class="form-question">Тойға келесіз бе?</p>
+      <div class="radio-group">
+        <div class="radio-option">
+          <input type="radio" id="attend-yes" name="attendance" class="radio-input" value="yes">
+          <label for="attend-yes" class="radio-label">Иә, әрине</label>
+        </div>
+        <div class="radio-option">
+          <input type="radio" id="attend-no" name="attendance" class="radio-input" value="no">
+          <label for="attend-no" class="radio-label">Өкінішке орай, келе алмаймын</label>
+        </div>
+      </div>
+
+      <button type="submit" class="submit-button" id="submit-button">Жіберу</button>
+      <script type="text/javascript">
+
+        function closeCustomAlert() {
+          document.getElementById('custom-alert').style.display = 'none';
+        }
+
+        function sendEmailMessage(event) {
+          event.preventDefault();
+
+          const httpRequest = new XMLHttpRequest();
+          httpRequest.open("POST", "https://api.emailjs.com/api/v1.0/email/send", true);
+          httpRequest.setRequestHeader("Content-Type", "application/json");
+
+          let message = document.getElementById("name");
+          let attendance = document.querySelector('input[name="attendance"]:checked');
+          let attendanceValue = attendance ? attendance.value : 'Не выбрано';
+
+          httpRequest.onreadystatechange = function () {
+            if (httpRequest.readyState == XMLHttpRequest.DONE && httpRequest.status == 200) {
+              message.value = '';
+              attendanceValue = '';
+            }
+          };
+
+          let body = {
+            service_id: 'service_6s2187d',
+            template_id: 'template_jnt2ajn',
+            user_id: '0sEleiBOwI5SzLaYF',
+            template_params: {
+              'to_name': 'Toty',
+              'message': message.value,
+              'attendance': attendanceValue
+            }
+          };
+          body = JSON.stringify(body);
+          httpRequest.send(body);
+        }
+
+        document.getElementById('contact-form').addEventListener('submit', sendEmailMessage);
+
+      </script>
+    </form>
+    <div class="five-title">
+      <h2> Назар аударыңыз, <br> біздің тойымыз<br> кішкентай бүлдіршіндерсіз өтеді !
+      </h2>
+    </div>
+  </div>
+  <div class="music-container">
+    <button class="music-button" onclick="toggleMusic()">
+      <img id="music-icon" src="music-icon.png" alt="Play" width="50">
+    </button>
+    <audio id="music-player">
+      <source src="Дос-Мұқасан, Мурат Кусаинов, Мейрбек Молдабеков - Той жыры.mp3" type="audio/mpeg">
+      Сіздің браузеріңіз аудионы ойната алмайды.
+    </audio>
+    <script>
+      let musicPlayer = document.getElementById("music-player");
+      let musicIcon = document.getElementById("music-icon");
+      let isPlaying = false;
+
+      function toggleMusic() {
+        if (isPlaying) {
+          musicPlayer.pause();
+          musicIcon.src = "music-icon.png"; // Меняем иконку обратно на play
+        } else {
+          musicPlayer.play();
+          musicIcon.src = "pause-icon.png"; // Меняем иконку на паузу
+        }
+        isPlaying = !isPlaying;
+      }
+
+      musicPlayer.onended = function () {
+        musicIcon.src = "music-icon.png"; // Когда музыка закончится, вернуть play-иконку
+        isPlaying = false;
+      };
+
+    </script>
+  </div>
+  </div>
+</body>
+
+</html>
