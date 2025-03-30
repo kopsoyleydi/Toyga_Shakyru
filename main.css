@@ -428,7 +428,7 @@ hr {
     display: none;
 }
 .close-btn {
-    float: right;
+    float: inline-end;
     cursor: pointer;
     font-size: 2.2em;
     font-weight: bold;
