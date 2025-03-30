@@ -47,7 +47,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-image: url('KZGoodVibes_wedding_main.png');
+    background-image: url('KZGoodVibes_wedding_original.png');
     background-size: cover;
     background-repeat: no-repeat;
     margin: 0;
@@ -77,7 +77,7 @@ hr {
 }
 
 .container-one .main-title {
-    margin-top: 105%;
+    margin-top: 110%;
     width: 100%;
 }
 
