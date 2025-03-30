@@ -70,10 +70,10 @@ hr {
 .container-one {
     display: flex;
     flex-direction: column;
-    margin-top: 98%;
+    margin-top: 90%;
     justify-content: center;
     align-items: center;
-    margin-bottom: 5%;
+    margin-bottom: 8%;
 }
 
 .container-one .main-title {
