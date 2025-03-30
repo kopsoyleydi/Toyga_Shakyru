@@ -117,7 +117,6 @@ hr {
     object-fit: cover;
     z-index: -1;
     margin: 0 auto;
-    margin-top: 5%;
     margin-bottom: 0%;
 }
 
@@ -126,7 +125,7 @@ hr {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 38em;
+    margin-top: 40em;
     height: 85em;
     width: 100%;
 }
@@ -373,7 +372,7 @@ hr {
     border: none;
     margin: 0 auto;
     border-radius: 30px;
-    background-color: #8195b5;
+    background-color: #415d3d;
     color: white;
     font-size: 2.2em;
     cursor: pointer;
@@ -382,7 +381,7 @@ hr {
 }
 
 .submit-button:hover {
-    background-color: #3d4a5d;
+    background-color: #415d3d;
 }
 
 
