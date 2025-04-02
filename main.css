@@ -77,15 +77,16 @@ hr {
 }
 
 .container-one .main-title {
-    margin-top: 118%;
+    margin-top: 127%;
     width: 100%;
 }
 
 .container-one .second-title {
     width: 100%;
     height: auto;
-    margin-bottom: 11em;
+    margin-bottom: 15em;
 }
+
 .container-one .main-title h1 {
     font-family: 'KZGoodVibes', Arial, sans-serif;
     font-size: 6.0em;
